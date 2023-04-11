@@ -1,0 +1,15 @@
+/*Paleta de colores #ECBE45, #F5DEA0 #652F30*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #ECBE45;/*FONDO*/
+    /*background-color: #F5DEA0; FOOTER*/
+    /*background-color: #652F30; LETRA TITULO*/
+}
