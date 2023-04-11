@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Shirt hub</title>
 </head>
 <body>
-    
+    <header>
+        <div class="menu container">
+        <a href="#" class="logo"><img src="img/logo.svg.png" alt=""></a>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="img/menu.png" class="menu-icono" alt="">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">¿Quienes somos?</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>   
+            </ul>
+        </nav>
+        </div>
+
+
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wraper">
+                    <div class="swiper-slide">
+                        <img class="slider" src="img/slider1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="slider" src="img/slider2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="slider" src="img/slider3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <a href="#" class="enlace">Para mas informacion</a>
+        </div>
+
+    </header>
+    <section class="camisas">
+        <div class="swiper mySwiper-2 container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="" alt="">
+                        <div class="product-txt">
+                            <h4>Camisa Oversize</h4>
+                            <span class="price">$30.000</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>   
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
