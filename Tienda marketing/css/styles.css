@@ -115,3 +115,31 @@ body{
     color:#652F30;
     margin-top: 15px;
 }
+
+.product img{
+    height: 250px;
+}
+
+.product-txt{
+    margin-top: 25PX;
+}
+
+.product-txt h4 {
+    color: #652F30;
+    font-size: 20px;
+    margin: 0;
+}
+
+.product-txt p {
+    color: whitesmoke;
+    font-size: 16px;
+    margin: 0;
+}
+
+.price{
+    color: #652F30;
+}
+
+.nosotros {
+    padding: 80px 0px;
+}
