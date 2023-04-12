@@ -76,7 +76,7 @@ body{
     float: left;
 }
 .menu .navbar ul li a{
-    font-size: 18px;
+    font-size: 25px;
     padding: 20px;
     color: #652F30;
     display: block;
@@ -178,6 +178,8 @@ hr{
     border: 1px solid #652F309a;
 }
 
+/*footer*/
+
 .footer-txt{
     padding-top: 50px;
     display: flex;
@@ -209,6 +211,7 @@ hr{
     color: black;
     margin-top: 25px;
     text-align: left;
+    font-size: 20px;
 }
 
 .links ul li a{
@@ -316,4 +319,49 @@ hr{
         display: block;
         margin-bottom: 15px;
     }
+}
+
+/*¿quienes somos?*/
+.who{
+    padding: 100px;
+    text-align: center;
+}
+
+.who p{
+    font-size: 30px;
+}
+
+.who h5{
+    font-size: 50px;
+    color: #652F30;
+}
+
+.mision{
+    padding: 10px;
+    text-align: center;
+}
+
+.mision p{
+    font-size: 30px;
+}
+
+
+.mision h5{
+    font-size: 50px;
+    color: #652F30;
+}
+
+.vision{
+    padding: 50px;
+    text-align: center;
+}
+
+.vision p{
+    font-size: 30px;
+}
+
+
+.vision h5{
+    font-size: 50px;
+    color: #652F30;
 }
