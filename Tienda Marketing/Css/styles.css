@@ -18,7 +18,7 @@ body{
     margin: 0 auto;
 }
 
-.camisas{
+.bee{
     padding: 150px 0px;
 }
 
@@ -31,12 +31,12 @@ body{
 }
 
 .swiper-button-prev::after{
-    font-size: 25px;
+    font-size: 50px;
 
 }
 
 .swiper-button-next::after{
-    font-size: 25px;
+    font-size: 50px;
 }
 
 .swiper-button-prev{
@@ -53,7 +53,7 @@ body{
 }
 
 .swiper-pagination-bullet-active{
-    background-color: #652F30;
+    background-color: whitesmoke;
 }
 
 .menu{
@@ -67,8 +67,8 @@ body{
     z-index: 1000;
 }
 
-.menu.logo img{
-    width: 30px;
+.menu .logo img{
+    width: 60px;
 }
 
 .menu .navbar ul li{
@@ -140,8 +140,8 @@ body{
 
 .nosotros {
     padding: 80px 0px;
-    background-image: linear-gradient(rgba(20,20,20,1), rgba(20,20,20,0.9)), url(/img/manu.jpg)
-    background-position: center bottom;
+    background-image: linear-gradient(rgba(20,20,20,1), rgba(20,20,20,0.8)), url(/img/manu.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -183,10 +183,15 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #F5DEA0;
 }
 
 .footer-txt img{
     width: 50px;
+}
+
+.footer-txt .mark{
+    width: 500px;
 }
 
 .links {
@@ -201,12 +206,13 @@ hr{
 }
 
 .links p{
-    color: whitesmoke;
+    color: black;
     margin-top: 25px;
+    text-align: left;
 }
 
 .links ul li a{
-    color: whitesmoke;
+    color: black;
 }
 
 .socials {
@@ -214,7 +220,7 @@ hr{
 }
 
 .socials img {
-    width: 25px;
+    width: px;
     margin: 0 15px;
 }
 
